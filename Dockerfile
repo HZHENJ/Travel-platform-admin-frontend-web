@@ -20,7 +20,7 @@ COPY --from=builder /app/dist /usr/share/nginx/html
 # 复制自定义 Nginx 配置
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# 暴露 8081 端口
+# 暴露 9091 端口
 EXPOSE 9091
 
 # 运行 Nginx
