@@ -3,7 +3,7 @@ name: Deploy Frontend to EC2 using Docker
 on:
   push:
     branches:
-      - deploy-frontend
+      - main
 
 jobs:
   build-and-deploy:
